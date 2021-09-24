@@ -4,7 +4,7 @@ class Solution:
         if target == 0:
             result.append(path)
             return
-        if target < 0:
+        elif target < 0:
             return
         for i in range(0, len(candidates)):
             newLi = list(path)
